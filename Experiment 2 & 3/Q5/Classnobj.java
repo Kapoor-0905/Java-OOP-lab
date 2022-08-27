@@ -1,3 +1,4 @@
+/*5) Write a program using classes and object in java.*/
 class Park{
     boolean parked;
     void yes(){
