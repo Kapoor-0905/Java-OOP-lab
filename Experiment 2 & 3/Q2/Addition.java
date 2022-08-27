@@ -1,3 +1,4 @@
+/*2)	Write a program to add two number using command line arguments. */
 import java.util.*;
 
 public class Addition {
