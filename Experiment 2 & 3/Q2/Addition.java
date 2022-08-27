@@ -8,5 +8,6 @@ public class Addition {
         int y = Integer.parseInt(args[1]);
         int sum = x + y;
         System.out.println("The sum of " + x + " and " + y + " is " + sum);
+        input.close();
     }
 }

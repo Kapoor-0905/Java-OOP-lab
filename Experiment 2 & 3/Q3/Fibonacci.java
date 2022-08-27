@@ -13,6 +13,7 @@ public class Fibonacci {
             c = a + b;
             a = b;
             b = c;
+            sc.close();
         }
     }
 }
