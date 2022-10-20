@@ -3,7 +3,7 @@ StackClass implements StackInterface. Class StackClass contains the main method 
 a switch case for selecting the particular operation of the stack.
  */
 
- import java.util.Scanner;
+import java.util.Scanner;
 interface StackInterface{
     public void push(int a);
     public void pop();
