@@ -1,5 +1,6 @@
 /*Write a program for searching strings for the first occurrence of a character or substring and for the last occurrence of a character orsubstring. */
-public class SearchStrings {
+
+ class SearchStrings {
     public static void main(String[] args) {
         String str = "Hello World";
         System.out.println("First occurrence of 'l' = " + str.indexOf('l'));

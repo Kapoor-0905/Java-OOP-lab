@@ -1,5 +1,5 @@
 /*Write a java program to throw an exception for an employee details. If an employee name is a number, a name exception must be thrown. If an employee age is greater than 50, an age exception must be thrown. Or else an object must be created for the entered employee detail */
-public class Employee {
+ class Employee {
     public static void main(String[] args) {
         String name = args[0];
         int age = Integer.parseInt(args[1]);
