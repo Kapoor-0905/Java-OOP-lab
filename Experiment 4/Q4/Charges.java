@@ -2,7 +2,7 @@
 The charges depend on the duration and the type of the call. 
 Write a program using the concept of polymorphism in Java to calculate the charges.** */
 
-class Trunk_call{
+class Charges{
 	//declare the rate of each call
 	int ordinary_rate=23;
 	int urgent_rate=43;

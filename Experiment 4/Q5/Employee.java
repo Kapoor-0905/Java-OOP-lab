@@ -5,13 +5,13 @@ Derive a subclass Manager from employee. Add an instance variable named departme
 Supply a test program that uses theses classes and methods. */
 
 import java.util.*;
-class Employee{
+class Employees{
 	String name;//employee properties
 	int empid;
 	int salary;
-	Employee(){
+	Employees(){
 	}
-	Employee(String n,int e,int s){
+	Employees(String n,int e,int s){
 		name=n;
 		empid=e;
 		salary=s;
@@ -28,7 +28,7 @@ class Employee{
 		return s;
 	}
 }
-class manager extends Employee{
+class Employee extends Employees{
 	public String department="d";
 	public static void main(String args[]){
 		Scanner sc= new Scanner(System.in); //obj and method calling
@@ -40,7 +40,7 @@ class manager extends Employee{
 		int s=sc.nextInt();
 		System.out.println("enter the percentage_rate increaced in salary");
 		double p=sc.nextDouble();
-		Employee e1=new Employee(n,e,s);
+		Employees e1=new Employees(n,e,s);
 		System.out.println(e1.names());
 		System.out.println(e1.salaries());
 		System.out.println(e1.increaseSalary(p));

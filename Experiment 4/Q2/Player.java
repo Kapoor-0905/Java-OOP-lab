@@ -13,19 +13,19 @@ public class Player{
 }
 class Cricket_Player extends Player{
 	public void cricket(){
-		System.out.println("name is: "+name+"and player no. is: "+player_no);
+		System.out.println("name is: "+name+" and player no. is: "+player_no);
 		System.out.println("cricket field diameter 137-150m");
 	}
 }
 class Football_Player extends Player{
 	public void football(){
-		System.out.println("name is: "+name+"and player no. is: "+player_no);
+		System.out.println("name is: "+name+" and player no. is: "+player_no);
 		System.out.println(" football field is about 1.32 acres ");
 		}
 }
 class Hockey_Player extends Player{
 	public void hockey(){
-		System.out.println("name is: "+name+"and player no. is: "+player_no);
+		System.out.println("name is: "+name+" and player no. is: "+player_no);
 		System.out.println("hockey field is of 5027 sq.m area");
 	}
 }
