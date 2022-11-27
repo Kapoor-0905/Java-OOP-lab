@@ -6,7 +6,11 @@ interface ConstValue{
 }
 
 class UseConstValue implements ConstValue{
-    public static void main(String[] args) {
+    public void meth1(){
         System.out.println("Value of a is "+a);
+    }
+    public static void main(String[] args) {
+        UseConstValue obj = new UseConstValue();
+        obj.meth1();
     }
 }   

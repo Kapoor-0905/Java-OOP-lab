@@ -12,4 +12,10 @@ class MyClass implements A{
     public void meth2(){
         System.out.println("This is method 2");
     }
+
+    public static void main(String[] args) {
+        MyClass obj = new MyClass();
+        obj.meth1();
+        obj.meth2();
+    }
 }

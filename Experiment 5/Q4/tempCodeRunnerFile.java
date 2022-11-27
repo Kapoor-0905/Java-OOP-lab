@@ -1,4 +1,3 @@
-/*Write a program to create an Interface having two methods division and modules. Create a class, which overrides these methods */
 
 interface DivModo{
     public void division(int a, int b);
@@ -16,7 +15,7 @@ class DivModClass implements DivModo{
     }
 }
 
- class DivMod {
+public class DivMod {
     public static void main(String[] args) {
         DivModClass obj = new DivModClass();
         obj.division(10, 5);
